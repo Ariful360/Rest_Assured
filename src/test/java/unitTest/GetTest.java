@@ -2,15 +2,12 @@ package unitTest;
 
 import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.*;
-
-import java.net.http.HttpResponse.BodyHandler;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class GetTest {
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void getCountryPreetyprint() {
 		RestAssured.get("http://localhost:3000/countries").prettyPrint();
 	}
@@ -20,7 +17,7 @@ public class GetTest {
 		Response response = RestAssured.get("http://localhost:3000/countries");
 		System.out.println(response.asString());
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void getCountryResponseCodeValidation() {
 		RestAssured.get("http://localhost:3000/countries/3")
 		.then()

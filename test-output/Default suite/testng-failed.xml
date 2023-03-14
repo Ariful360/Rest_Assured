@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="unitTest.PostTest">
+      <class name="unitTest.GetTest">
         <methods>
-          <include name="postTest"/>
+          <include name="getCountryResponseCodeValidation"/>
         </methods>
-      </class> <!-- unitTest.PostTest -->
+      </class> <!-- unitTest.GetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
