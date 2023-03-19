@@ -6,7 +6,7 @@ public class Cities extends RestSpecifications{
 	
 private final String ENDPOINT = "/players";
 	
-	public void getPlayers() {
+	public void getCities() {
 		getCall(ENDPOINT);
 	}
 
