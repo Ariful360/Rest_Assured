@@ -1,5 +1,6 @@
 package unitTest;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 public class DeleteTest {
 	

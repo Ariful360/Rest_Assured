@@ -1,5 +1,6 @@
 package misc;
 
+import org.testng.annotations.Test;
 import org.apache.commons.codec.binary.Base64;
 import org.testng.annotations.Test;
 

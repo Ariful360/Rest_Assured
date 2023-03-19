@@ -1,4 +1,5 @@
 package misc;
+import org.testng.annotations.Test;
 import java.io.InputStream;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

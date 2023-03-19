@@ -1,5 +1,6 @@
 package unitTest;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.HashMap;
 import java.util.Map;
 import io.restassured.RestAssured;
